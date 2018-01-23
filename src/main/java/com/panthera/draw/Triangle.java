@@ -18,14 +18,15 @@ public class Triangle {
         System.out.print("No Of Element :");
         int noOfElements = sc.nextInt();
         
-        //Right Angle 
+        System.out.println("\nRight Angle\n");        
         for (int i = 0; i <= noOfElements; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
             System.out.println("");
         }
-        //Inverse Logic
+        
+        System.out.println("\nInverse Logic\n");        
         for (int i = noOfElements; i >= 0; i--) {
             for (int j = noOfElements; j > i; j--) {
                 System.out.print("*");
@@ -33,12 +34,36 @@ public class Triangle {
             System.out.println("");
         }
         
-        //Inverse Right Angle 
-        for (int i = 0; i < noOfElements; i++) {
+        System.out.println("\nMirror Right Angle\n");        
+        for (int i = 0; i <= noOfElements; i++) {
+            for (int j = 0; j < noOfElements - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < i ; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        
+    
+        
+        System.out.println("\nInverse Triangle\n");
+        for (int i = noOfElements; i >= 0; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
-              System.out.println(" ");
+            System.out.println("");
+        }
+        
+        System.out.println("\nMirror Inverse Triangle\n");        
+        for (int i = 0; i <= noOfElements; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < noOfElements - i ; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
         }
         
         
