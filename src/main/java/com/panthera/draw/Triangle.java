@@ -35,7 +35,7 @@ public class Triangle {
         }
         
         System.out.println("\nMirror Right Angle\n");        
-        for (int i = 0; i <= noOfElements; i++) {
+        for (int i = 1; i <= noOfElements; i++) {
             for (int j = 0; j < noOfElements - i; j++) {
                 System.out.print(" ");
             }
