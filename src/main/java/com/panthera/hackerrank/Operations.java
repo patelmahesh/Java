@@ -19,10 +19,10 @@ public class Operations {
 
     static void miniMaxSum(int[] arr) {
         // Complete this function
-        Integer[] result = new Integer[arr.length];
+        Long[] result = new Long[arr.length];
 
         for (int i = 0; i < arr.length; i++) {
-            Integer sum = 0;
+            Long sum = 0L;
             for (int j = 0; j < arr.length; j++) {
                 if (j != i) {
                     sum = sum + arr[j];
