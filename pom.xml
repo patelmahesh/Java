@@ -25,25 +25,24 @@
             <artifactId>xmlworker</artifactId>
             <version>5.5.7</version>
         </dependency>
-<dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>all</artifactId>
-    <version>1.10.4.2</version>
-</dependency>
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>all</artifactId>
+            <version>1.10.4.2</version>
+        </dependency>
 
-    <dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>core</artifactId>
-    <version>1.10.4.2</version>
-</dependency>
+        
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>core</artifactId>
+            <version>10.2</version>
+        </dependency>
 
-<dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>core</artifactId>
-    <version>10.2</version>
-</dependency>
-
-    
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.1.16</version>
+        </dependency> 
 
 
         <dependency>
