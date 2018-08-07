@@ -10,11 +10,9 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import org.python.bouncycastle.util.Strings;
 
 public class StreamPractice {
 
@@ -39,7 +37,7 @@ public class StreamPractice {
     }
 
     public static List<String> mapToUpperCase(List<String> strings) {
-        return strings.stream().map(Strings::toUpperCase).collect(Collectors.toList());
+        return strings.stream().map(String::toUpperCase).collect(Collectors.toList());
     }
 
     public static Integer sums(List<Integer> integers) {

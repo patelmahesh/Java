@@ -4,16 +4,23 @@
     <groupId>com.panthera</groupId>
     <artifactId>JAVA</artifactId>
     <version>1.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <rx.java.version>1.3.2</rx.java.version>
     </properties>
     
     <!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-transcoder -->
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+        <dependency>
+            <groupId>io.reactivex</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>${rx.java.version}</version>
+        </dependency>
+        
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itextpdf</artifactId>
@@ -25,24 +32,16 @@
             <artifactId>xmlworker</artifactId>
             <version>5.5.7</version>
         </dependency>
-<dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>all</artifactId>
-    <version>1.10.4.2</version>
-</dependency>
+     
+        <!-- https://mvnrepository.com/artifact/com.mxgraph/jgraphx -->
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>jgraphx</artifactId>
+            <version>1.12.0.2</version>
+        </dependency>
 
-    <dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>core</artifactId>
-    <version>1.10.4.2</version>
-</dependency>
 
-<dependency>
-    <groupId>com.mxgraph</groupId>
-    <artifactId>core</artifactId>
-    <version>10.2</version>
-</dependency>
-
+      
     
 
 

@@ -16,7 +16,7 @@ public class Shape {
 
 
 /* Implement your classes here. Do not use access modifiers in your class declarations. */
- class Circle {
+class Circle {
 
     public float radius;
 
@@ -31,7 +31,7 @@ public class Shape {
 
 }
 
- class Rectangle {
+class Rectangle {
 
     public float width;
     public float height;
@@ -48,7 +48,7 @@ public class Shape {
 
 }
 
- class Square {
+class Square {
 
     public float width;
 
