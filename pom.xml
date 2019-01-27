@@ -5,6 +5,7 @@
     <artifactId>JAVA</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -32,6 +33,7 @@
             <artifactId>xmlworker</artifactId>
             <version>5.5.7</version>
         </dependency>
+
      
         <!-- https://mvnrepository.com/artifact/com.mxgraph/jgraphx -->
         <dependency>
@@ -41,8 +43,23 @@
         </dependency>
 
 
+        
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>core</artifactId>
+            <version>10.2</version>
+        </dependency>
+
       
-    
+
+
+
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.1.16</version>
+        </dependency> 
+
 
 
         <dependency>
