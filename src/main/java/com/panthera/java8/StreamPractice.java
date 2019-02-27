@@ -4,7 +4,6 @@ import com.panthera.pojo.User;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -13,6 +12,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class StreamPractice {
 
