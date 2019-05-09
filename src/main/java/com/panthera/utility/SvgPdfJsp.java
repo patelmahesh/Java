@@ -14,7 +14,6 @@ import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfTemplate;
 import com.itextpdf.text.pdf.PdfWriter;
-import java.awt.Graphics2D;
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
 import java.awt.print.PrinterJob;
@@ -34,7 +33,8 @@ public class SvgPdfJsp {
 
     public static void main(String[] args) throws BadElementException ,DocumentException, FileNotFoundException  {
         
-        String svg = "<svg width=\"600\" height=\"300\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <rect x=\"40\" y=\"20\" rx=\"20\" ry=\"20\" width=\"250\" height=\"250\" style=\"fill:red;stroke:black;stroke-width:1;\" /></svg>";
+        String svg = "<svg width=\"600\" height=\"300\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <rect x=\"40\" y=\"20\" rx=\"20\" ry=\"20\" width=\"250\" height=\"250\" "
+                + "style=\"fill:red;stroke:black;stroke-width:1;\" /></svg>";
         String rootPath = "D:\\";
         // Create the PDF document.
         // rootPath is the present working directory path.
