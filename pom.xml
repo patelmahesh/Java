@@ -34,20 +34,44 @@
             <version>5.5.7</version>
         </dependency>
      
-        <!--         https://mvnrepository.com/artifact/com.mxgraph/jgraphx 
-          <dependency>
-              <groupId>com.mxgraph</groupId>
-              <artifactId>jgraphx</artifactId>
-              <version>3.7.4</version>
-          </dependency>
-  
-          <dependency>
-              <groupId>com.mxgraph</groupId>
-              <artifactId>core</artifactId>
-              <version>10.2</version>
-          </dependency>
-  
+        <!--         
+               <dependency>
+                   <groupId>com.mxgraph</groupId>
+                   <artifactId>jgraphx</artifactId>
+                   <version>3.7.4</version>
+               </dependency>
+               
+                  <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>core</artifactId>
+            <version>10.2</version>
+        </dependency>
+        
+             
+        <dependency>
+            <groupId>org.webjars.bowergithub.jgraph</groupId>
+            <artifactId>mxgraph</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        
         -->
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>jgraphx</artifactId>
+            <version>3.7.4</version>
+        </dependency>
+
+   
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.12</version>
+        </dependency>
+
+     
+     
+        <!-- Thanks for using https://jar-download.com -->
+
 
         <dependency>
             <groupId>io.reactivex.rxjava2</groupId>
@@ -83,7 +107,7 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-    
+      
     </dependencies>
 	
     <build>
@@ -104,7 +128,7 @@
                     <version>2.4</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>notify</warName>						
+                        <warName>java</warName>						
                     </configuration>
                 </plugin>
             </plugins>
